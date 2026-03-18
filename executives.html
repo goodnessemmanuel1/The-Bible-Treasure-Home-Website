@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Executives - THE BIBLE TREASURE HOME</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .executives-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: var(--spacing-lg);
+        margin-top: var(--spacing-lg);
+      }
+
+      .executive-card .card-image {
+        height: 300px;
+      }
+
+      .executive-position {
+        color: var(--text-secondary);
+        margin-bottom: var(--spacing-md);
+      }
+
+      .advisory-list {
+        list-style-position: inside;
+        margin-top: var(--spacing-md);
+      }
+
+      .advisory-list li {
+        margin-bottom: var(--spacing-sm);
+      }
+
+      @media (max-width: 768px) {
+        .executives-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body class="dark-gold">
+    <nav class="navbar">
+      <div class="container">
+        <a href="/" class="logo">BTH</a>
+        <div class="nav-controls">
+          <button
+            id="themeToggle"
+            class="theme-toggle"
+            aria-label="Toggle theme"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="sun-icon"
+            >
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="moon-icon"
+            >
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+          </button>
+          <button
+            id="menuToggle"
+            class="mobile-menu-button"
+            aria-label="Toggle menu"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/" class="nav-link">Home</a></li>
+          <li>
+            <a href="/executives.html" class="nav-link active">Executives</a>
+          </li>
+          <li><a href="/progress.html" class="nav-link">Progress</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="container">
+        <section class="section">
+          <h1 class="section-title">Our Leadership Team</h1>
+          <p>
+            THE BIBLE TREASURE HOME is led by a dedicated team of individuals
+            who are passionate about spreading the Word of God and making a
+            positive impact in communities around the world. Our executives
+            bring diverse skills and experiences to the organization, united by
+            a common commitment to our mission and values.
+          </p>
+
+          <div class="executives-grid">
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250524-WA0072.jpg"
+                alt="Sister Joy Irefe"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Sister Joy Irefe- Esema (Founder)</h3>
+                <p class="executive-position">Founder & President</p>
+                <p>
+                  Sister Joy Irefe- Esema founded THE BIBLE TREASURE HOME in
+                  2020 with a vision to spread God's Word across nations. With
+                  over 5 years of ministry experience, She leads the
+                  organization with wisdom and compassion.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250607-WA0058(1).jpg"
+                alt="Esema Dickson Essien"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Esema Dickson Essien</h3>
+                <p class="executive-position">
+                  BTH Representative in the United Kingdom
+                </p>
+                <p>
+                  Esema Dickson Essien represent the Bible Treasure Home in the
+                  United Kingdom, ensuring that all programs and initiatives in
+                  the country where he represents the Bible Treasure home align
+                  with our mission and values . His strategic leadership has
+                  been instrumental in expanding our reach.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Reps (Canada).JPG"
+                alt="Evangelist Ali Etu"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Evangelist Ali Etu</h3>
+                <p class="executive-position">BTH Representative in Canada</p>
+                <p>
+                  Evangelist Ali Etu is a devoted Christian leader and the
+                  representative of The Bible Treasure Home in Canada. With a
+                  strong passion for evangelism and discipleship, he is
+                  committed to spreading the gospel, strengthening believers in
+                  their faith, and fostering a vibrant Christian community that
+                  reflects the love of Christ.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250601-WA0004.jpg"
+                alt="Evangelist Ali Etu"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Evangelist Arif Walter Shindhu</h3>
+                <p class="executive-position">BTH Representative in Pakistan</p>
+                <p>
+                  Evangelist Arif Walter Shindhu is a devoted Christian leader
+                  and the official representative of The Bible Treasure Home in
+                  Pakistan. With a deep passion for evangelism and discipleship,
+                  he is dedicated to spreading the Gospel, strengthening the
+                  faith of believers, and building a vibrant Christian community
+                  that reflects the love and truth of Christ.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250528-WA0006.jpg"
+                alt="Pastor Peter Ozoko"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Pastor Peter Ozoko</h3>
+                <p class="executive-position">
+                  BTH Representative in Côte d'Ivoire
+                </p>
+                <p>
+                  Pastor Peter Ozoko is a committed Christian leader and the
+                  representative of The Bible Treasure Home in Côte d'Ivoire. He
+                  is passionate about evangelism, discipleship, and building a
+                  strong, Christ-centered community through sound biblical
+                  teaching and compassionate leadership.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Reps (Osun)...jpg"
+                alt="⁠Isreal"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>⁠Isreal</h3>
+                <p class="executive-position">
+                  BTH Representative in Ivory Coast
+                </p>
+                <p>
+                  Israel serves as the official representative of The Bible
+                  Treasure Home (BTH) in Ivory Coast. As a passionate and
+                  dedicated leader, he plays a key role in advancing the vision
+                  and mission of BTH throughout the region.x
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Reps 5.JPG"
+                alt="⁠Prince Ofisun"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>⁠Prince Ofosu Appiah</h3>
+                <p class="executive-position">BTH Representative in Ghana</p>
+                <p>
+                  ⁠Prince Ofosu Appiah is the official representative of The
+                  Bible Treasure Home (BTH) in Ghana. With a strong commitment
+                  to the Gospel and a heart for leadership, Prince is
+                  instrumental in advancing the mission of BTH within the
+                  nation.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Reps Abuja.JPG"
+                alt="Patrick Irefe"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Patrick Irefe</h3>
+                <p class="executive-position">
+                  BTH Representative in Abuja, Nigeria
+                </p>
+                <p>
+                  Patrick Irefe represent The Bible Treasure Home in Abuja,
+                  Nigeria. As a key figure in this group, he plays a crucial
+                  role in guiding members, organizing faith-based activities,
+                  and ensuring the community stays committed to its mission of
+                  deepening the understanding of God’s Word.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\do.jpg"
+                alt="Tersoo Ephraim Adesue"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Tersoo Ephraim Adesue</h3>
+                <p class="executive-position">
+                  BTH Representative in Abuja, Nigeria
+                </p>
+                <p>
+                  Tersoo Ephraim Adasue represent The Bible Treasure Home in
+                  Abuja, Nigeria. As a key figure in this group, he plays a
+                  crucial role in guiding members, organizing faith-based
+                  activities, and ensuring the community stays committed to its
+                  mission of deepening the understanding of God’s Word.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Treasurer.JPG"
+                alt="Oke Anna"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Oke Anna</h3>
+                <p class="executive-position">
+                  BTH Representative in Lagos, Nigeria
+                </p>
+                <p>
+                  Oke Anna is the lively representative of Bible Treasure Home
+                  (BTH) in Lagos, Nigeria. She connects members, organizes Bible
+                  studies and events, and ensures the group's Christian values
+                  shine through every activity. Passionate about faith and
+                  community, Anna is at the heart of BTH's mission to spread
+                  love and grow together in Christ.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250524-WA0078.jpg"
+                alt="Pastor Anointing Endurance"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Pastor Anointing Endurance</h3>
+                <p class="executive-position">
+                  BTH Representative in Warri, Delta state, Nigeria
+                </p>
+                <p>
+                  Pastor Anointing Endurance is the representative of The Bible
+                  Treasure Home in Warri, Delta State, Nigeria. As a devoted
+                  leader, he is committed to spreading the Word of God,
+                  strengthening the faith of believers, and ensuring the
+                  Christian community remains active and spiritually nourished.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250527-WA0006(1).jpg"
+                alt="Pastor Nwakeze Miracle"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Pastor Nwakeze Miracle</h3>
+                <p class="executive-position">
+                  BTH Representative in Anambran state Nigeria
+                </p>
+                <p>
+                  Pastor Nwakeze Miracle is the representative of The Bible
+                  Treasure Home in Anambran state State, Nigeria. As a devoted
+                  leader, he is committed to spreading the Word of God,
+                  strengthening the faith of believers, and ensuring the
+                  Christian community remains active and spiritually nourished.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Reps (Anambra).JPG"
+                alt="Dr Pastor Obasuyi"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Dr Pastor Obasuyi</h3>
+                <p class="executive-position">
+                  BTH Representative in Benin city, Edo state, Nigeria
+                </p>
+                <p>
+                  Dr. Pastor Obasuyi is a devoted Christian leader and the
+                  esteemed representative of The Bible Treasure Home, a
+                  faith-based community in Benin City, Edo State, Nigeria. With
+                  a deep passion for spreading the Word of God, he plays a
+                  pivotal role in nurturing spiritual growth, providing biblical
+                  guidance, and fostering a strong Christian community.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250524-WA0067.jpg"
+                alt="Christy Elisha"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Christy Elisha</h3>
+                <p class="executive-position">
+                  BTH Representative in Kaduna, Kaduna state, Nigeria
+                </p>
+                <p>
+                  Christy Elisha is a committed Christian leader and the
+                  esteemed representative of The Bible Treasure Home in Kaduna,
+                  Nigeria. She is dedicated to fostering spiritual growth,
+                  encouraging biblical wisdom, and building a strong faith-based
+                  community where believers can deepen their relationship with
+                  God.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Reps 2 Jos.JPG"
+                alt="Stephanie Irefe"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Stephanie Irefe</h3>
+                <p class="executive-position">
+                  BTH Representative in Jos, Plateau state, Nigeria
+                </p>
+                <p>
+                  Stephanie Irefe is a passionate Christian leader and the
+                  dedicated representative of The Bible Treasure Home in Jos,
+                  Nigeria. She is committed to spreading the gospel, nurturing
+                  spiritual growth, and building a Christ-centered community
+                  where believers can thrive in faith and fellowship.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\BTH Reps (Osun).JPG"
+                alt="Pastor Peter"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Pastor Peter Osasona</h3>
+                <p class="executive-position">
+                  BTH Representative in Osun State, Nigeria
+                </p>
+                <p>
+                  Pastor Peter serves as the official representative of The
+                  Bible Treasure Home (BTH) in Osun State, Nigeria. As a
+                  dedicated Christian leader, he plays a vital role in promoting
+                  the vision and mission of BTH, which is centered on spreading
+                  the Gospel, fostering community growth, and nurturing
+                  spiritual development among believers.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\1749468730637_z79ryr_2_0.jpg"
+                alt="Newton Kelly Ojachere"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Newton Kelly Ojachere</h3>
+                <p class="executive-position">
+                  BTH Representative in Warri, Delta State, Nigeria.
+                </p>
+                <p>
+                  Newton Kelly Ojachere serves as the official representative of
+                  The Bible Treasure Home (BTH) in Warri, Delta State, Nigeria.
+                  With a deep passion for ministry and community transformation,
+                  Newton leads various BTH activities in the region, including
+                  Bible teachings, outreach initiatives, discipleship programs,
+                  and leadership training.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250524-WA0075(1).jpg"
+                alt=">Bishop Samuel Daodu"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Bishop Samuel Daodu</h3>
+                <p class="executive-position">
+                  BTH Representative in Kogi, Nigeria
+                </p>
+                <p>
+                  Bishop Samuel Daodu is the official representative of The
+                  Bible Treasure Home (BTH) in Kogi State, Nigeria. With a
+                  strong passion for ministry and community transformation, he
+                  leads various BTH initiatives including Bible teaching,
+                  outreach, discipleship, and leadership development across the
+                  region.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250608-WA0028.jpg"
+                alt="Mrs Ruth Iyere"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Mrs Ruth Iyere</h3>
+                <p class="executive-position">
+                  BTH Representative in Zamfara state, Nigeria
+                </p>
+                <p>
+                  Mrs. Ruth Iyere is the representative of The Bible Treasure
+                  Home (BTH) in Zamfara State, Nigeria. She is a devoted
+                  Christian leader with a passion for outreach and discipleship,
+                  committed to spreading the Gospel and strengthening believers
+                  in a region that greatly needs the light of Christ.
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250609-WA0027.jpg"
+                alt="Emmanuel Goodness"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Emmanuel Goodness</h3>
+                <p class="executive-position">
+                  BTH Teens club/Youth Ministry Ambasador
+                </p>
+                <p>
+                  Goodness Emmanuel serves as the ambasador the official
+                  representative of The Bible Treasure Home teens club/youth
+                  ministry
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250607-WA0049.jpg"
+                alt="Divine Elija"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Divine Elija</h3>
+                <p class="executive-position">
+                  BTH Teens Club/Youth Ministry Ambasador
+                </p>
+                <p>
+                  Divine Elija serves as the ambasador the official
+                  representative of The Bible Treasure Home teens club/youth
+                  ministry
+                </p>
+              </div>
+            </div>
+
+            <div class="card executive-card">
+              <img
+                src="executive images\IMG-20250607-WA0054.jpg"
+                alt="Mama Beatrice Irefe"
+                class="card-image"
+              />
+              <div class="card-content">
+                <h3>Mama Beatrice Irefe</h3>
+                <p class="executive-position">BTH Widows Support Leader</p>
+                <p>
+                  Mama Beatrice Irefe serves as the Widows Support Leader at The
+                  Bible Treasure Home (BTH). With a compassionate heart and
+                  years of experience in ministry, she is dedicated to
+                  encouraging, supporting, and empowering widows within the
+                  community.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Our Advisory Board</h2>
+          <p>
+            In addition to our executive team, THE BIBLE TREASURE HOME is guided
+            by a distinguished advisory board comprising respected leaders in
+            ministry, business, and community service. Their wisdom and counsel
+            help shape our strategic direction and ensure that we remain
+            faithful to our mission.
+          </p>
+
+          <div class="card">
+            <div class="card-content">
+              <h3>Board Responsibilities</h3>
+              <ul class="advisory-list">
+                <li>Providing strategic guidance and oversight</li>
+                <li>Ensuring alignment with our mission and values</li>
+                <li>Advising on program development and expansion</li>
+                <li>Supporting fundraising and resource development</li>
+                <li>Representing BTH in the broader community</li>
+                <li>Planning and organizing BTH outreaches</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section text-center">
+          <h2 class="section-title">Join Our Team</h2>
+          <p class="cta-text">
+            We are always looking for passionate individuals who share our
+            vision and values to join our team. If you are interested in
+            contributing your skills and talents to our mission, or joinig our
+            daily bible study, we invite you to join THE BIBLE TREASURE HOME
+            whatsapp platform.
+          </p>
+          <a
+            href="https://chat.whatsapp.com/CAod1FnGDJOH9QigjcsmtH
+        "
+            class="btn"
+            >JOIN OUR WHATSAPP PLATFORM</a
+          >
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>THE BIBLE TREASURE HOME</h3>
+            <p>
+              Spreading the word of God to the ends of the earth and impacting
+              lives
+            </p>
+          </div>
+          <div class="social-links">
+            <h4>Connect With Us</h4>
+            <div class="social-icons">
+              <a
+                href="https://web.facebook.com/profile.php?id=100087996777624"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/thebibletreasurehome?igsh=MTN1bzY2ZGJIb3ZyZq=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  ></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="currentYear"></span> THE BIBLE TREASURE HOME. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
