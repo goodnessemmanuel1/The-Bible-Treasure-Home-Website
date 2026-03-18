@@ -2,7 +2,7 @@
 
 > **Live site:** [thebibletreasurehome.com](https://thebibletreasurehome.com)
 
-A multi-page static website built for **The Bible Treasure Home (BTH)**, a Christian ministry founded in 2020 and officially registered in 2023. The site serves as the ministry's primary online presence — communicating its mission, showcasing leadership, and documenting its growth across nations.
+A multi-page website built for **The Bible Treasure Home (BTH)**, a Christian ministry founded in 2020 and officially registered in 2023. The site serves as the ministry's primary online presence — communicating its mission, showcasing leadership, and documenting its growth across nations.
 
 ---
 
@@ -75,10 +75,6 @@ A multi-page static website built for **The Bible Treasure Home (BTH)**, a Chris
 | Structure | HTML5 |
 | Styling | CSS3 |
 | Scripting | Vanilla JavaScript (if any) |
-| Hosting | Static web hosting |
-| Type | Multi-page static site (MPA) |
-
-> No frontend frameworks or build tools were used. The site is a hand-coded static website — ideal for straightforward client deployment and low maintenance overhead.
 
 ---
 
