@@ -467,12 +467,22 @@ a {
   border-color: var(--gold-border);
 }
 
-.card-image {
+.card-imageleft {
   width: 100%;
   height: 240px;
   object-fit: cover;
   object-position: center top;
   transition: transform var(--dur-slow) var(--ease-out);
+   object-position: center 55%;
+}
+
+.card-imageright {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform var(--dur-slow) var(--ease-out);
+   object-position: center 30%;
 }
 
 .card:hover .card-image {

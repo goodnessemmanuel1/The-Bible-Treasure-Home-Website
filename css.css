@@ -246,6 +246,11 @@ body {
   object-fit: cover;
 }
 
+.card-imagestudy{
+  object-position: center 15%;
+}
+
+
 .card-content {
   padding: var(--spacing-lg);
 }
